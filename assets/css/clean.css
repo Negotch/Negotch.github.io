@@ -345,6 +345,9 @@ hr {
   font-size: 0.96rem;
   line-height: 1.5;
 }
+.selected-item .work-meta {
+  font-size: 0.85rem;
+}
 .connect-links {
   display: flex;
   flex-wrap: wrap;

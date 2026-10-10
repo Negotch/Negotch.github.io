@@ -2,6 +2,7 @@
 title: Resources
 permalink: /resources/
 subtitle: Notes, code, and useful links
+published: false
 ---
 
 ## Notes and materials

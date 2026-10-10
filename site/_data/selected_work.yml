@@ -1,0 +1,61 @@
+# Papers listed on https://scholar.google.com/citations?user=PKGFapQAAAAJ&hl=en.
+# Newest first, using publication/conference dates or first arXiv submission dates.
+- title: Improved SDP Coloring of 3-Colorable Graphs from Recursive Gaussian Certificates
+  authors:
+    - Ijay Narang
+    - Yukai Tang
+  venue: arXiv preprint arXiv:2609.33684
+  year: 2026
+  date: "2026-09-27"
+  url: https://arxiv.org/abs/2609.33684
+
+# - title: Complexity of Output Feedback Stabilization
+#   authors:
+#     - Amir Ali Ahmadi
+#     - Abraar Chaudhry
+#     - Ijay Narang
+#     - Yukai Tang
+#   venue: arXiv preprint arXiv:2609.20636
+#   year: 2026
+#   date: "2026-09-17"
+#   url: https://arxiv.org/abs/2609.20636
+
+- title: Schrijver Number Quasi-Tensorization and Multicolor Ramsey Bounds via Robust OR Polynomials
+  authors:
+    - Ijay Narang
+    - Yukai Tang
+  venue: arXiv preprint arXiv:2607.25023
+  year: 2026
+  date: "2026-07-27"
+  url: https://arxiv.org/abs/2607.25023
+
+- title: A Polynomial-Time Algorithm for Coloring Perfect Graphs Based on Walk Counting
+  authors:
+    - Amir Ali Ahmadi
+    - Pravesh K. Kothari
+    - Yukai Tang
+  venue: arXiv preprint arXiv:2607.09309
+  year: 2026
+  date: "2026-07-10"
+  url: https://arxiv.org/abs/2607.09309
+
+# - title: "CLOSURE: Fast Quantification of Pose Uncertainty Sets"
+#   authors:
+#     - Yihuai Gao
+#     - Yukai Tang
+#     - Han Qi
+#     - Heng Yang
+#   venue: "Robotics: Science and Systems (RSS)"
+#   year: 2024
+#   date: "2024-07-15" # RSS 2024 conference start date.
+#   url: https://www.roboticsproceedings.org/rss20/p072.html
+
+- title: "Uncertainty Quantification of Set-Membership Estimation in Control and Perception: Revisiting the Minimum Enclosing Ellipsoid"
+  authors:
+    - Yukai Tang
+    - Jean-Bernard Lasserre
+    - Heng Yang
+  venue: Learning for Dynamics & Control Conference (L4DC)
+  year: 2024
+  date: "2024-06-11"
+  url: https://proceedings.mlr.press/v242/tang24a.html

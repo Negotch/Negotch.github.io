@@ -10,16 +10,14 @@ lang: en
 
 author:
   name: Yukai Tang
-  affiliation: "[Your role and affiliation]"
+  affiliation: "PhD student at Princeton ORFE"
 
 banner_image: /assets/images/banner.jpg
 social_links:
   github: https://github.com/Negotch
-  email: ""
-  scholar: ""
+  email: "yt3846@princeton.edu"
+  scholar: "https://scholar.google.com/citations?user=PKGFapQAAAAJ&hl=en"
   orcid: ""
-cv_pdf: ""
-
 markdown: kramdown
 highlighter: rouge
 kramdown:

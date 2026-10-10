@@ -10,12 +10,14 @@ A small Jekyll website with a banner and horizontal navigation inspired by
   the previous theme. Add your own image to `site/assets/images/` and update
   `banner_image` to replace it.
   Empty optional links are hidden. `email` is an email address; the other social links
-  are full URLs. Set `cv_pdf` to a local PDF path or a full URL when your CV is ready.
+  are full URLs.
 - Edit the Markdown pages in `site/_pages/` to add your biography, research,
-  publications, resources, and CV. Replace bracketed placeholders with your details.
+  and publications. Replace bracketed placeholders with your details.
 - Edit `site/_data/navigation.yml` to change the horizontal navigation.
+- Edit `site/_data/selected_work.yml` to update the papers displayed in Selected work and Publications.
+  Set each paper's `date` to `YYYY-MM-DD`; the list displays newest first.
 - Put images and PDFs in `site/assets/`, then link to them with paths such as
-  `/assets/images/photo.jpg` or `/assets/pdf/cv.pdf`.
+  `/assets/images/photo.jpg` or `/assets/pdf/paper.pdf`.
 
 The previous al-folio files are retained outside `site/` for reference. Jekyll uses
 `source: site`, so those demo pages, assets, and plugins are not published.

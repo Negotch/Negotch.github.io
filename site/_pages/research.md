@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Research
 permalink: /research/
 subtitle: Questions, ideas, and ongoing work
@@ -18,4 +18,4 @@ subtitle: Questions, ideas, and ongoing work
 
 ## Research direction 3
 
-<p class="placeholder">[Describe a third research area or emerging interest.]</p>
+<p class="placeholder">[Describe a third research area or emerging interest.]</p> -->

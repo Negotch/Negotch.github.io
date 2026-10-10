@@ -1,4 +1,2 @@
 User-agent: *
-Disallow:
-
-Sitemap: https://Negotch.github.io/sitemap.xml
+Allow: /

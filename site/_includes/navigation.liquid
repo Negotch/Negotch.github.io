@@ -1,0 +1,12 @@
+<nav class="{{ include.class }}" aria-label="Main navigation">
+  {% for item in site.data.navigation %}
+    <a
+      href="{{ item.url | relative_url }}"
+      {% if page.permalink == item.url %}
+        aria-current="page"
+      {% endif %}
+    >
+      {{- item.title | escape -}}
+    </a>
+  {% endfor %}
+</nav>

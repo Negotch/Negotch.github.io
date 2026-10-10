@@ -1,0 +1,62 @@
+<div class="{% if include.icons %}social-row{% else %}footer-links{% endif %}">
+  {% if site.social_links.email != '' and site.social_links.email %}
+    <a href="mailto:{{ site.social_links.email | escape }}">
+      {% if include.icons %}
+        <svg
+          aria-hidden="true"
+          viewBox="0 0 24 24"
+          width="17"
+          height="17"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6.5 9 6.5 9-6.5"/>
+        </svg>
+      {% endif %}
+      <span>Email</span>
+    </a>
+  {% endif %}
+  {% if site.social_links.github != '' and site.social_links.github %}
+    <a href="{{ site.social_links.github | escape }}">
+      {% if include.icons %}
+        <svg
+          aria-hidden="true"
+          viewBox="0 0 24 24"
+          width="17"
+          height="17"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7M15 22v-3.5c0-1 .1-1.6-.5-2.3 4.1-.5 6.5-2 6.5-6.2 0-1.5-.6-2.7-1.6-3.7.3-1 .3-2.2-.2-3.3 0 0-1.4-.4-4.1 1.5a14 14 0 0 0-6.2 0C6.2 2.6 4.8 3 4.8 3c-.5 1.1-.5 2.3-.2 3.3C3.6 7.3 3 8.5 3 10c0 4.2 2.4 5.7 6.5 6.2-.6.7-.5 1.4-.5 2.3V22"/>
+        </svg>
+      {% endif %}
+      <span>GitHub</span>
+    </a>
+  {% endif %}
+  {% if site.social_links.scholar != '' and site.social_links.scholar %}
+    <a href="{{ site.social_links.scholar | escape }}">
+      {% if include.icons %}
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="17" height="17" fill="currentColor">
+          <path d="M12 2 1 8l11 6 9-4.9V17h2V8L12 2zM5 13.18v3.64L12 21l7-4.18v-3.64L12 17l-7-3.82z"/>
+        </svg>
+      {% endif %}
+      <span>Google Scholar</span>
+    </a>
+  {% endif %}
+  {% if site.social_links.orcid != '' and site.social_links.orcid %}
+    <a href="{{ site.social_links.orcid | escape }}">
+      {% if include.icons %}
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8">
+          <circle cx="12" cy="12" r="10"/><path d="M7 10v7m0-10v.2M11 10h2a3.5 3.5 0 0 1 0 7h-2z"/>
+        </svg>
+      {% endif %}
+      <span>ORCID</span>
+    </a>
+  {% endif %}
+</div>
